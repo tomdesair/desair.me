@@ -1,0 +1,51 @@
+# Dependencies
+markdown:         kramdown
+highlighter:      rouge
+
+title: Tom's Webspace
+tagline:  'Blog about stuff I want to share with the Internet'
+email: tom@desair.me
+description: >- # this means to ignore newlines until "baseurl:"
+  Blog about stuff I want to share with the Internet.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: "https://tom.desair.me" # the base hostname & protocol for your site, e.g. http://example.com
+
+# Setup
+title:            Tom's Webspace
+tagline:          'Blog about stuff I want to share with the Internet'
+description:      'Blog about stuff I want to share with the Internet.'
+url:              https://tom.desair.me
+baseurl:          # the optional subpath of your site, e.g. "/blog"
+                  # NB: This applies to all pages in your Jekyll site.
+                  # If you want to move just the blog index pages but keep
+                  # other pages at root, see the paginate_path and
+                  # sidebar_blog_link below.
+
+author:
+  name:           'Tom Desair'
+  url:            https://tom.desair.me
+
+paginate:         5
+# paginate_path:    '/page:num'
+                    # Or '/blog/page:num' if you want to move your index pages
+
+plugins:
+  - jekyll-feed
+  - jekyll-gist
+  - jekyll-paginate
+
+# Custom vars
+sidebar_home_link:  true
+# sidebar_blog_link:  '/blog'   # By default, your home page is your blog
+                                # page. If you change your paginate_path,
+                                # set this to the root of the paginate_path
+                                # to enable a separate blog link.
+
+github:
+  user:           tomdesair
+
+twitter:
+  user:           TomDesair
+
+linkedin:
+  user:           tomdesair
